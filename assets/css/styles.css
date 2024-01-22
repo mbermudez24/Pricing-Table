@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.plan {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+
+}
+
+hr {
+    width: 5rem;
+}
+
+.price {
+    padding: 20px 20px 0;
+    font-weight: bold;
+}
+
+.price span {
+    font-size: 50px;
+}
+
+ul {
+    margin-left: 1rem;
+}
+
+li {
+    margin-left: 0;
+
+    padding: 20px 20px 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #3498db;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 10px;
+}
+
+
+.button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
